@@ -110,13 +110,29 @@ body {
       body {
         background-color: #e4edff;
       }
-      p {
-        font-size: 18px;
+      p {font-size: large;
+          font-family: "fredoka", sans-serif;
+          color: #093e62;
+           max-width: 350px;
+            margin: 10px auto;
+            padding: 20px;   
+            background: #cbbae7;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
       }
+      .contact-form-container {
+            max-width:350px;
+            margin: 50px auto; /* Centre horizontalement */
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            }
       .ROBOT {position: absolute;
-            max-width: 250px;
-            top: 20%;
-            left: 0pt;
+            max-width: 180px;
+            top: 40%;
+            left: 0%;
             
         }
         .MESSAGE {position: absolute;
@@ -137,18 +153,26 @@ body {
       body {
         background-color:  #e4edff;
       }
-      p {
-        font-size: 16px;
+      p {font-size: large;
+          font-family: "fredoka", sans-serif;
+          color: #093e62;
+           max-width: 300px;
+            margin: 10px auto;
+            padding: 20px;   
+            background: #cbbae7;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        
       }
        .ROBOT {position: absolute;
-            max-width: 250px;
+            max-width: 150px;
             top: 20%;
             right: 0%;
             
         }
         .MESSAGE {position: absolute;
             max-width: 100px;
-            top: 50%;
+            top: 100%;
             right: 0%;
         }
 
@@ -157,6 +181,14 @@ body {
             top: 70%;
             left: 0%;
         }
+        .contact-form-container {
+            max-width: 300px;
+            margin: 50px auto; /* Centre horizontalement */
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
     }
     @media (max-width:1440px)  {
       body {
