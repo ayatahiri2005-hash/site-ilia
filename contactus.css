@@ -164,20 +164,25 @@ body {
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         
       }
-       .ROBOT {position: absolute;
-            max-width: 150px;
-            top: 20%;
-            right: 0%;
-            
-        }
+       @media (max-width: 800px) {
+    .robot-icon {
+        display: block;
+        position: fixed; /* reste visible même si on scroll */
+        bottom: 20px;    /* distance du bas de l'écran */
+        right: 20px;     /* distance de la droite */
+        font-size: 40px; /* taille de l'icône */
+        cursor: pointer; /* effet clic si tu veux ajouter une action */
+        z-index: 1000;   /* devant tout */
+    }
+}
         .MESSAGE {position: absolute;
-            max-width: 100px;
+            max-width: 50px;
             top: 100%;
             right: 0%;
         }
 
         .laptop {position: absolute;
-            max-width: 100px;
+            max-width: 50px;
             top: 70%;
             left: 0%;
         }
